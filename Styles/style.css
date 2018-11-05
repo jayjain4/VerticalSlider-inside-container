@@ -1,0 +1,40 @@
+.slider {
+  margin: 0px;
+  margin-top: -125px; 
+  height: 100%;
+  z-index: 100;
+}
+
+.slider1 {
+  margin: 0px;
+  margin-top: 0px; 
+  height: 100%;
+  z-index: 100;
+  display: block;
+}
+
+.showslider{
+	display: block;
+}
+
+.hideslider{
+	display: none;
+}
+
+.slick-slide {
+  
+  color: white;
+  padding: 40px 0;
+  font-size: 30px;
+  font-family: "Arial", "Helvetica", sans-serif;
+  text-align: center;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: black;
+}
+
+.slick-slide:nth-child(odd) {
+  
+}
